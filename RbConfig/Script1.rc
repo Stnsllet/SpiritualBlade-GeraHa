@@ -1,0 +1,140 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG_DLG DIALOG DISCARDABLE  0, 0, 229, 195
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Config"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,172,174,50,14
+    CONTROL         "Slider1",IDC_BGM_SLIDE,"msctls_trackbar32",TBS_NOTICKS | 
+                    TBS_ENABLESELRANGE | WS_TABSTOP,55,125,134,15
+    CTEXT           "BGM",IDC_STATIC,7,129,43,8
+    CTEXT           "0%",IDC_BGM_VOL,194,129,28,8
+    CONTROL         "Slider1",IDC_EFFECT_SLIDE,"msctls_trackbar32",
+                    TBS_NOTICKS | TBS_ENABLESELRANGE | WS_TABSTOP,55,145,134,
+                    15
+    CTEXT           "効果音",IDC_STATIC,7,149,43,8
+    CTEXT           "0%",IDC_EFFECT_VOL,194,149,28,8
+    CONTROL         "Slider1",IDC_DISPLAY_SLIDE,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,55,20,134,15
+    CTEXT           "バトル画面",IDC_STATIC,7,24,43,8
+    CTEXT           "0%",IDC_DISPLAY_SIZE,194,24,28,8
+    LTEXT           "音量",IDC_STATIC,7,117,15,8
+    LTEXT           "画面",IDC_STATIC,7,7,15,8
+    PUSHBUTTON      "デフォルトに戻す",IDC_BTN_DEFAULT,7,174,50,14
+    CTEXT           "ウインドウ",IDC_STATIC,7,49,43,8
+    CONTROL         "No.1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,60,47,29,
+                    10
+    CONTROL         "No.2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,101,47,29,10
+    CONTROL         "No.3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,142,47,29,10
+    CONTROL         "No.4",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,183,47,29,10
+    CONTROL         "HAL を使わない",IDC_UN_HAL,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,89,72,63,10
+    CONTROL         "安全に描写する",IDC_SAFETY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,74,62,10
+    CONTROL         "Slider1",IDC_ADJUSTER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,55,93,100,15
+    LTEXT           "文字調整",IDC_STATIC,7,97,28,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONFIG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

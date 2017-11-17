@@ -1,0 +1,43 @@
+
+
+#ifndef __ALL_WINDOW__
+#define __ALL_WINDOW__
+
+#include "BaseWindow.h"
+#include "HelpWindow.h"
+#include "StatusWindow.h"
+#include "MiniStatusWindow.h"
+#include "EquipStatusWindow.h"
+#include "SelCharaWindow.h"
+#include "SPWindow.h"
+#include "TimerWindow.h"
+#include "MsgWindow.h"
+#include "TutorialWindow.h"
+#include "PopUpMsgWindow.h"
+#include "ComBaseWindow.h"
+#include "MoneyWindow.h"
+#include "TitleWindow.h"
+#include "ResultWindow.h"
+#include "DivisionWindow.h"
+#include "PoweredWindow.h"
+#include "DummyWindow.h"
+#include "BatComWindow.h"
+#include "InfomationWindow.h"
+#include "PatyHpWindow.h"
+#include "LandWindow.h"
+#include "NewsWindow.h"
+#include "NewsListWindow.h"
+#include "PatyEditWindow.h"
+#include "ExPatyEditWindow.h"
+#include "ItemListWindow.h"
+#include "ShopListWindow.h"
+#include "BuyWindow.h"
+#include "SellWindow.h"
+#include "AutoBuyWindow.h"
+#include "LoadWindow.h"
+#include "SaveWindow.h"
+#include "EmployWindow.h"
+#include "DischargeWindow.h"
+#include "StockMemberWindow.h"
+
+#endif __ALL_WINDOW__
